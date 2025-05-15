@@ -90,7 +90,6 @@ public class Doors : MonoBehaviour, IInteractable
     void RoomsSnap()
     {
         RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
-
         if (roomAmbient.ambientActivated == true && doorsOpened == false)
         {
             Debug.Log("im in!");
