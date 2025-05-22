@@ -246,7 +246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &98186704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2776,6 +2776,8 @@ GameObject:
   - component: {fileID: 613997993}
   - component: {fileID: 613997990}
   - component: {fileID: 613997989}
+  - component: {fileID: 613997994}
+  - component: {fileID: 613997995}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2865,7 +2867,7 @@ Transform:
   m_GameObject: {fileID: 613997984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400.45, y: 8.22, z: 308.41}
+  m_LocalPosition: {x: 400.45, y: 7.6, z: 301.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2879,7 +2881,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613997984}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fbd09cf2b0f52f4f9ac9d7ede826ce7, type: 3}
   m_Name: 
@@ -2892,6 +2894,20 @@ MonoBehaviour:
   lookSpeed: 3
   lookXLimit: 45
   canMove: 1
+  footStepsEvent:
+    Guid:
+      Data1: -126192328
+      Data2: 1133823965
+      Data3: -2120712805
+      Data4: -1740929340
+    Path: event:/Footsteps
+  jumpEvent:
+    Guid:
+      Data1: -568516295
+      Data2: 1163548722
+      Data3: -497432417
+      Data4: 315784686
+    Path: event:/Jumping
 --- !u!143 &613997990
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2945,6 +2961,60 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &613997994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52c9ba03726de34bae99dd9b30461a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stack:
+    _Stack: []
+--- !u!114 &613997995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5c0a9807833a54c885ab3842cc459c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 237163390}
+  characterController: {fileID: 0}
+  walkSpeed: 6
+  runSpeed: 12
+  jumpPower: 7
+  gravity: 10
+  lookSpeed: 2
+  lookXLimit: 45
+  moveDirection: {x: 0, y: 0, z: 0}
+  rotationX: 0
+  canMove: 1
+  floor:
+    serializedVersion: 2
+    m_Bits: 1
+  footStepsEvent:
+    Guid:
+      Data1: -126192328
+      Data2: 1133823965
+      Data3: -2120712805
+      Data4: -1740929340
+    Path: event:/Footsteps
+  jumpEvent:
+    Guid:
+      Data1: -568516295
+      Data2: 1163548722
+      Data3: -497432417
+      Data4: 315784686
+    Path: event:/Jumping
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0

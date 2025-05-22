@@ -1,3 +1,5 @@
+using FMOD.Studio;
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,10 +23,16 @@ public class FPSController : MonoBehaviour
 
     public bool canMove = true;
 
+    public EventReference footStepsEvent;
+    public EventInstance footStepsSound;
+    public EventReference jumpEvent;
+    public EventInstance jumpSound;
 
     CharacterController characterController;
     void Start()
     {
+        footStepsSound = RuntimeManager.CreateInstance(footStepsEvent);
+        jumpSound = RuntimeManager.CreateInstance(jumpEvent);
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -32,7 +40,6 @@ public class FPSController : MonoBehaviour
 
     void Update()
     {
-
         #region Handles Movement
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -46,10 +53,13 @@ public class FPSController : MonoBehaviour
 
         #endregion
 
+
+
         #region Handles Jumping
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
             moveDirection.y = jumpPower;
+            jumpSound.start();
         }
         else
         {
