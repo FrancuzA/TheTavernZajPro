@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638829038229586660
+  lastModified: 638841080532187396
   FileSizes:
   - Name: Desktop
-    Value: 1198
+    Value: 1616
   Exists: 1
 --- !u!114 &-3829226968815618047
 MonoBehaviour:
@@ -77,6 +77,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 915
+--- !u!114 &-3502940828919639603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/GoOutside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/GoOutside
+  Guid:
+    Data1: 823457893
+    Data2: 1210703542
+    Data3: -893332583
+    Data4: 1964432456
+  Banks:
+  - {fileID: 6167093547464195064}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-1648185066691456766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,12 +180,14 @@ MonoBehaviour:
   - {fileID: 2668552140469364918}
   - {fileID: 3102958132547354307}
   - {fileID: -36219702850071627}
+  - {fileID: 4054029441459864129}
+  - {fileID: -3502940828919639603}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6167093547464195064}
   StringsBanks:
   - {fileID: -5303655712044578977}
-  cacheTime: 638829038229586660
+  cacheTime: 638841080532187396
   cacheVersion: 131617
 --- !u!114 &221834798950430359
 MonoBehaviour:
@@ -292,6 +321,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50000
+--- !u!114 &4054029441459864129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/RoomInside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/RoomInside
+  Guid:
+    Data1: -538253756
+    Data2: 1127030645
+    Data3: -963573862
+    Data4: 472527094
+  Banks:
+  - {fileID: 6167093547464195064}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4054626222212849403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,8 +418,8 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638829038229566620
+  lastModified: 638841080532167425
   FileSizes:
   - Name: Desktop
-    Value: 6926880
+    Value: 6931232
   Exists: 1

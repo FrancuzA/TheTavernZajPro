@@ -10,6 +10,7 @@ public class Doors : MonoBehaviour, IInteractable
     public float rotationSpeed = 90f; // Degrees per second
     bool doorsOpened = true;
     bool isRotating = false;
+    public Animator DoorAnim;
 
     ////////////////// FMOD Section ///////////////////
 
@@ -111,18 +112,34 @@ public class Doors : MonoBehaviour, IInteractable
     {
         if (doorsOpened == true)
         {
-            StartCoroutine(CloseOverTime());
-            PlaySound();
+            DoorAnim.SetTrigger("Close");
             doorsOpened = false;
             RoomsSnap();
         }
         else
         {
-            StartCoroutine(OpenOverTime());
-            PlaySound();
+            DoorAnim.SetTrigger("Open");
             doorsOpened = true;
             RoomsSnap();
         }
+    }
+
+    public void PlaySoundOpen()
+    {
+        DoorsSound = FMODUnity.RuntimeManager.CreateInstance(DoorsEvent);
+        DoorsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+        DoorsSound.setParameterByName("doorControler", 0);
+        DoorsSound.start();
+        DoorsSound.release();
+    }
+
+    public void PlaySoundClose()
+    {
+        DoorsSound = FMODUnity.RuntimeManager.CreateInstance(DoorsEvent);
+        DoorsSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+        DoorsSound.setParameterByName("doorControler", 1);
+        DoorsSound.start();
+        DoorsSound.release();
     }
 }
 
