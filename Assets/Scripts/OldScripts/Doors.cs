@@ -11,11 +11,6 @@ public class Doors : MonoBehaviour, IInteractable
     public bool isInRoom;
 
 
-    public void SetIsInRoom(bool value)
-    {
-        isInRoom = value;
-    }
-
     ////////////////// FMOD Section ///////////////////
 
     // Door's sample //
@@ -35,17 +30,24 @@ public class Doors : MonoBehaviour, IInteractable
             DoorsInteract();
         }
     }
+
+    public void SetIsInRoom(bool value)
+    {
+        isInRoom = value;
+    }
     void RoomsSnap()
     {
         InsideRoom = FMODUnity.RuntimeManager.CreateInstance(insideRoomSnap);
         if (isInRoom)
         {
+            Debug.Log("TurningMusicOf");
             InsideRoom.start();
             InsideRoom.release();
         }
         else
         {
             InsideRoom.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            InsideRoom.release();
         }
     }
 
@@ -61,7 +63,9 @@ public class Doors : MonoBehaviour, IInteractable
         {
             DoorAnim.SetTrigger("Open");
             doorsOpened = true;
-            RoomsSnap();
+            Debug.Log("Turning music on");
+            InsideRoom.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            InsideRoom.release();
         }
     }
 

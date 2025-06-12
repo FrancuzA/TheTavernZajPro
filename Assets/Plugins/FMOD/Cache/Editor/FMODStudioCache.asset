@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847164958238835
+  lastModified: 638853223286445782
   FileSizes:
   - Name: Desktop
-    Value: 1616
+    Value: 1808
   Exists: 1
 --- !u!114 &-3829226968815618047
 MonoBehaviour:
@@ -130,6 +130,34 @@ MonoBehaviour:
   - No
   - Yes
   Exists: 1
+--- !u!114 &-753803096327603126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TavernMusic/MusicSection
+  m_EditorClassIdentifier: 
+  Name: MusicSection
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1500920374
+    data2: 124006540
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Section1
+  - Section2
+  - Section3
+  - Section4
+  Exists: 1
 --- !u!114 &-36219702850071627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,12 +210,15 @@ MonoBehaviour:
   - {fileID: -36219702850071627}
   - {fileID: 4054029441459864129}
   - {fileID: -3502940828919639603}
+  - {fileID: 9048111536997979847}
+  - {fileID: 456319480292100696}
+  - {fileID: 3788731769969188769}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6167093547464195064}
   StringsBanks:
   - {fileID: -5303655712044578977}
-  cacheTime: 638847164958238835
+  cacheTime: 638853223286445782
   cacheVersion: 131617
 --- !u!114 &221834798950430359
 MonoBehaviour:
@@ -215,6 +246,33 @@ MonoBehaviour:
   - opened
   - closed
   Exists: 1
+--- !u!114 &456319480292100696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  Guid:
+    Data1: -1574852751
+    Data2: 1132271414
+    Data3: 678948517
+    Data4: 1909480960
+  Banks:
+  - {fileID: 6167093547464195064}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6800
 --- !u!114 &1171230284881134511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,10 +348,11 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -753803096327603126}
   MinDistance: 1
   MaxDistance: 20
-  Length: 77538
+  Length: 55009
 --- !u!114 &3102958132547354307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,6 +380,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50000
+--- !u!114 &3788731769969188769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Stun
+  m_EditorClassIdentifier: 
+  Path: event:/Stun
+  Guid:
+    Data1: -224352294
+    Data2: 1245761036
+    Data3: 282995383
+    Data4: -981365619
+  Banks:
+  - {fileID: 6167093547464195064}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11400
 --- !u!114 &4054029441459864129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,8 +504,35 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847164958218799
+  lastModified: 638853223286425787
   FileSizes:
   - Name: Desktop
-    Value: 6931904
+    Value: 6885952
   Exists: 1
+--- !u!114 &9048111536997979847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Stuny
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Stuny
+  Guid:
+    Data1: 2083455065
+    Data2: 1197400345
+    Data3: 1676805306
+    Data4: 432624935
+  Banks:
+  - {fileID: 6167093547464195064}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0

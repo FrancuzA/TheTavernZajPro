@@ -13,14 +13,14 @@ public class MusicSwitch : MonoBehaviour, IInteractable
             Debug.Log("switch");
         //Music.setParameterByNameWithLabel("Switch_parts", "Part 2");
         if (gameObject.name == "Food_bottle4")
-            tavernEmitter.SetParameter("Switch_parts", 0);
+            tavernEmitter.SetParameter("MusicSection", 0);
         else if (gameObject.name == "Food_bottle1")
-            tavernEmitter.SetParameter("Switch_parts", 1);
+            tavernEmitter.SetParameter("MusicSection", 1);
         else if (gameObject.name == "Food_bottle3")
-            tavernEmitter.SetParameter("Switch_parts", 2);
+            tavernEmitter.SetParameter("MusicSection", 2);
         else if (gameObject.name == "Food_bottle2")
         {
-            tavernEmitter.SetParameter("Switch_parts", 3);
+            tavernEmitter.SetParameter("MusicSection", 3);
             musicIsPlaying = false;
             Debug.Log(musicIsPlaying);
         }
@@ -28,7 +28,7 @@ public class MusicSwitch : MonoBehaviour, IInteractable
         else if (gameObject.name == "Food_bottle6")
         {
             Debug.Log("start");
-            tavernEmitter.SetParameter("Switch_parts", 0);
+            tavernEmitter.SetParameter("MusicSection", 0);
             tavernEmitter.Play();
             musicIsPlaying = true;
         }

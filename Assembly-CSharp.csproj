@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\OldScripts\Outside_snapshot.cs" />
+    <Compile Include="Assets\GrenadeScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Scripts\State MAchine\PlayerManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\RoomTrigger.cs" />
+    <Compile Include="Assets\Mirza Beig\Cinematic Explosions FREE\Scripts\FPSTest.cs" />
     <Compile Include="Assets\Scripts\OldScripts\MusicSwitch.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\pauseManager.cs" />
@@ -109,12 +111,15 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Mirza Beig\Cinematic Explosions FREE\Scripts\DemoController.cs" />
     <Compile Include="Assets\Scripts\OldScripts\Rooms.cs" />
+    <Compile Include="Assets\Mirza Beig\Cinematic Explosions FREE\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\OldScripts\BedTrigger.cs" />
     <Compile Include="Assets\Scripts\OldScripts\Footsteps.cs" />
     <Compile Include="Assets\Scripts\FPP_control.cs" />
     <Compile Include="Assets\Scripts\OldScripts\Fire_start.cs" />
+    <Compile Include="Assets\Mirza Beig\Cinematic Explosions FREE\Scripts\CustomImpulse.cs" />
     <Compile Include="Assets\Scripts\Interactor.cs" />
     <Compile Include="Assets\Scripts\State MAchine\StateMachine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
@@ -132,6 +137,7 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Workspace.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{f315c2d4-f863-4886-8dae-01fc10b04909}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Mixer.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{167be269-16cd-461b-9e83-9115170583c3}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{33e35b04-f52d-4113-a9bd-6fdda891f14a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{add98f20-a254-4ffb-8e2b-e5571bdfa97c}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Bank\{4afd0c07-d369-4029-87a7-d65c5153745e}.xml" />
@@ -153,6 +159,7 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Platform\{14efed26-2aa1-4e9c-b5c8-34b1bdfb831d}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{90402ee0-9960-46f8-abcd-224bdc977ec5}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\VCA\{9a2830d3-3455-4a47-bdb5-dbc29a02fa49}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Group\{a577d8d3-5de0-4649-8062-dbdce625d92a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{c3d081eb-67d2-4af5-b68e-7f4bc4356f87}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{3cac358b-0477-4b1b-9f1c-8836787fc23d}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Return\{acc85769-fb8f-48f3-880d-48747df66e64}.xml" />
@@ -163,7 +170,9 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{d1dcfefd-bffd-41c7-a596-114e5241f949}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\VCA\{60f4695f-85ec-45b3-a0f7-2f7760a8f713}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ProfilerFolder\{a8f1b65b-b7c8-452d-a0b4-697e8ebbc309}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{a221a771-1736-437d-a5ee-7728005ed071}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{9df15918-3a95-4a12-a256-ce4594bd597a}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{1b0303f2-568d-40e2-ae69-e919595cf8f3}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Group\{0c7cf259-ae8c-46a7-b0e4-4e65ff162c46}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{fdbb6f90-7d8c-40d1-b5c1-5de86037f85f}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\EffectPresetFolder\{eb5d4619-35c0-4580-ba39-2bfb368bcc31}.xml" />
@@ -182,6 +191,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{6288d0cf-541b-48e7-bc0a-d42ef98c3d92}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{85d4d949-d2fd-4fd9-91f0-7a4a5bd459f8}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{6468afd9-4922-4c8d-a4d3-1aa5ad837d83}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{2d39bf5e-6a63-440b-a88e-2f1707aa4751}.xml" />
@@ -189,6 +199,7 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{5381a84f-2ffa-41ee-a9ee-761068523f48}.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{54e0acf6-3610-4260-8e23-27c070cc9e8d}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{f2a0a7da-ce0c-4a40-b72a-de108d8c81c5}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{f87a7538-c7dd-4394-9b7d-9881c4863b98}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Tags.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{fcbf0f66-33e7-4b08-bf19-aae9bea315d8}.xml" />
@@ -202,11 +213,13 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{84d2c8c2-20cc-4dc3-94a4-7e5ecbdb24fe}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{0716fdd7-8f75-4338-bc2b-c3f65caa5470}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{96ccc804-a2dd-409c-8fba-db65f522081e}.xml" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{dee3a026-9e26-43da-a322-d8f9b7fa943a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{3777605f-6c30-42b3-8a51-ff14513fb44a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{038cd846-5f70-40c9-9d57-35778ec21231}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Snapshot\{7c2f0059-e119-475e-ba04-f2632755c919}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{b6f25058-65e3-49f6-95a7-75d7a3e86a6a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{4777b069-5974-46fe-9661-0c334c6542c0}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{8d9058cb-aa9c-4784-812a-c0bbb1e4ceab}.xml" />
@@ -1043,6 +1056,98 @@
       <HintPath>C:\Program Files\Unity 2022.3.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -1051,16 +1156,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
@@ -1075,48 +1172,36 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1127,12 +1212,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -1141,6 +1226,10 @@
       <Project>{05B6E2D7-F93C-8A5C-1E74-626243832696}</Project>
       <Name>FMODUnityEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{748668A8-1A70-4AE9-C641-4134EDE376B5}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
       <Project>{191C1B58-C914-0ECD-E02A-21AB28D0AEA7}</Project>
       <Name>FMODUnity</Name>
@@ -1148,10 +1237,6 @@
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
       <Project>{9346BBAE-36D8-B2E3-A15D-AB73935EA807}</Project>
       <Name>FMODUnityResonanceEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{748668A8-1A70-4AE9-C641-4134EDE376B5}</Project>
-      <Name>FMODUnityResonance</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
