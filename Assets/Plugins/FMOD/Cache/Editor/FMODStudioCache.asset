@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638841080532187396
+  lastModified: 638847164958238835
   FileSizes:
   - Name: Desktop
     Value: 1616
@@ -187,7 +187,7 @@ MonoBehaviour:
   - {fileID: 6167093547464195064}
   StringsBanks:
   - {fileID: -5303655712044578977}
-  cacheTime: 638841080532187396
+  cacheTime: 638847164958238835
   cacheVersion: 131617
 --- !u!114 &221834798950430359
 MonoBehaviour:
@@ -418,8 +418,8 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638841080532167425
+  lastModified: 638847164958218799
   FileSizes:
   - Name: Desktop
-    Value: 6931232
+    Value: 6931904
   Exists: 1
