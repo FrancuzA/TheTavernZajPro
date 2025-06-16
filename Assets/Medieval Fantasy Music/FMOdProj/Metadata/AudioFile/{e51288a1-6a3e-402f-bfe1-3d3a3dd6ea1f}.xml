@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e51288a1-6a3e-402f-bfe1-3d3a3dd6ea1f}">
+		<property name="assetPath">
+			<value>MusicTracks/Track6_Organ_Bass.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.864149659863946</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{02a6b439-b9aa-47b6-8c81-7fb1daec077b}</destination>
+		</relationship>
+	</object>
+</objects>

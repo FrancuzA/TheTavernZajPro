@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{cd510dea-079a-4051-94b5-714a3832c1db}">
+		<property name="name">
+			<value>LayerContinuous</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2cfd475f-7811-4ff5-92d1-b44d068a3186}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8643b8d5-c5df-46a7-bc01-2193a0c3aca7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8643b8d5-c5df-46a7-bc01-2193a0c3aca7}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

@@ -13,14 +13,14 @@ public class MusicSwitch : MonoBehaviour, IInteractable
             Debug.Log("switch");
         //Music.setParameterByNameWithLabel("Switch_parts", "Part 2");
         if (gameObject.name == "Food_bottle4")
-            tavernEmitter.SetParameter("MusicSection", 0);
-        else if (gameObject.name == "Food_bottle1")
             tavernEmitter.SetParameter("MusicSection", 1);
-        else if (gameObject.name == "Food_bottle3")
+        else if (gameObject.name == "Food_bottle1")
             tavernEmitter.SetParameter("MusicSection", 2);
+        else if (gameObject.name == "Food_bottle3")
+            tavernEmitter.SetParameter("MusicSection", 3);
         else if (gameObject.name == "Food_bottle2")
         {
-            tavernEmitter.SetParameter("MusicSection", 3);
+            tavernEmitter.SetParameter("MusicSection", 4);
             musicIsPlaying = false;
             Debug.Log(musicIsPlaying);
         }

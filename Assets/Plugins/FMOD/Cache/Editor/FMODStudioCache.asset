@@ -28,6 +28,63 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 580
+--- !u!114 &-8496843075162538908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TawernMusic2/Musiclayer
+  m_EditorClassIdentifier: 
+  Name: Musiclayer
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 3347593396
+    data2: 215509211
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Melody
+  - Perk
+  - Bass
+  - Bass2
+  Exists: 1
+--- !u!114 &-6526156395328714604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TawernMusic2
+  m_EditorClassIdentifier: 
+  Path: event:/TawernMusic2
+  Guid:
+    Data1: 1253783029
+    Data2: 1243166048
+    Data3: -83482490
+    Data4: 1053167518
+  Banks:
+  - {fileID: 6167093547464195064}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7388389093310984147}
+  - {fileID: -8496843075162538908}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13866
 --- !u!114 &-5303655712044578977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,10 +100,10 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638853223286445782
+  lastModified: 638856691266437524
   FileSizes:
   - Name: Desktop
-    Value: 1808
+    Value: 1954
   Exists: 1
 --- !u!114 &-3829226968815618047
 MonoBehaviour:
@@ -145,7 +202,7 @@ MonoBehaviour:
   Name: MusicSection
   StudioPath: 
   Min: 0
-  Max: 3
+  Max: 4
   Default: 0
   ID:
     data1: 1500920374
@@ -157,6 +214,7 @@ MonoBehaviour:
   - Section2
   - Section3
   - Section4
+  - Section5
   Exists: 1
 --- !u!114 &-36219702850071627
 MonoBehaviour:
@@ -213,12 +271,13 @@ MonoBehaviour:
   - {fileID: 9048111536997979847}
   - {fileID: 456319480292100696}
   - {fileID: 3788731769969188769}
+  - {fileID: -6526156395328714604}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6167093547464195064}
   StringsBanks:
   - {fileID: -5303655712044578977}
-  cacheTime: 638853223286445782
+  cacheTime: 638856691266437524
   cacheVersion: 131617
 --- !u!114 &221834798950430359
 MonoBehaviour:
@@ -352,7 +411,7 @@ MonoBehaviour:
   - {fileID: -753803096327603126}
   MinDistance: 1
   MaxDistance: 20
-  Length: 55009
+  Length: 68723
 --- !u!114 &3102958132547354307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,10 +563,34 @@ MonoBehaviour:
   Path: Assets/Medieval Fantasy Music/FMOdProj/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638853223286425787
+  lastModified: 638856691266417435
   FileSizes:
   - Name: Desktop
-    Value: 6885952
+    Value: 8812736
+  Exists: 1
+--- !u!114 &7388389093310984147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TawernMusic2/LayerContinuous
+  m_EditorClassIdentifier: 
+  Name: LayerContinuous
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 460479485
+    data2: 2676648856
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &9048111536997979847
 MonoBehaviour:

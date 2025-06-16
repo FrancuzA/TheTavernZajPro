@@ -126,7 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{cd0d48d1-bce0-4726-ba09-5df024d917df}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{d934e2df-cdb2-4ab2-94d2-ff9d499347b4}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\EncodingSetting\{d9d07546-ee21-4d7e-8e35-76b17150f5ae}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{ec8f182d-ce56-4aa3-8100-90c75b27d75e}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{30a80473-6151-4160-b23e-f6197d41f1bd}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\SnapshotGroup\{2fe0e7eb-8627-4fb1-a87d-19e7caccfcb1}.xml" />
@@ -137,12 +139,16 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Workspace.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{f315c2d4-f863-4886-8dae-01fc10b04909}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Mixer.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{bda4422e-0cc7-4497-a25e-d17fe0b1c475}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{167be269-16cd-461b-9e83-9115170583c3}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{876891db-b422-48d9-a72c-59b186a699f5}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{33e35b04-f52d-4113-a9bd-6fdda891f14a}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{cd510dea-079a-4051-94b5-714a3832c1db}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{add98f20-a254-4ffb-8e2b-e5571bdfa97c}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Bank\{4afd0c07-d369-4029-87a7-d65c5153745e}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\SandboxFolder\{60fd1a4a-c7c7-4753-be2a-60f1761e5737}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{ea8f2641-5376-4da8-8573-b3476b08b710}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{4adcb4a4-b2f3-4f12-b3d0-7eea48423405}.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{825b6220-08e2-48df-a02e-202efd5b5b7e}.xml" />
@@ -159,6 +165,7 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Platform\{14efed26-2aa1-4e9c-b5c8-34b1bdfb831d}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{90402ee0-9960-46f8-abcd-224bdc977ec5}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\VCA\{9a2830d3-3455-4a47-bdb5-dbc29a02fa49}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{6d6ab0fa-96a3-4400-b058-ec94728e7326}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Group\{a577d8d3-5de0-4649-8062-dbdce625d92a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{c3d081eb-67d2-4af5-b68e-7f4bc4356f87}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{3cac358b-0477-4b1b-9f1c-8836787fc23d}.xml" />
@@ -172,8 +179,11 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ProfilerFolder\{a8f1b65b-b7c8-452d-a0b4-697e8ebbc309}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{a221a771-1736-437d-a5ee-7728005ed071}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{9df15918-3a95-4a12-a256-ce4594bd597a}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{b0808814-17b2-45e4-a38d-5683f6c86d9b}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{1b0303f2-568d-40e2-ae69-e919595cf8f3}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Group\{0c7cf259-ae8c-46a7-b0e4-4e65ff162c46}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{e51288a1-6a3e-402f-bfe1-3d3a3dd6ea1f}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{c2cbee23-ecef-461f-a883-1f62a15c97fe}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{fdbb6f90-7d8c-40d1-b5c1-5de86037f85f}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\EffectPresetFolder\{eb5d4619-35c0-4580-ba39-2bfb368bcc31}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Snapshot\{dfeae644-1f75-432d-9a07-91c6f6302a1c}.xml" />
@@ -190,6 +200,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{6288d0cf-541b-48e7-bc0a-d42ef98c3d92}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{b4f4ebeb-f8c1-49f3-b715-2d471807d4a5}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{85d4d949-d2fd-4fd9-91f0-7a4a5bd459f8}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{6468afd9-4922-4c8d-a4d3-1aa5ad837d83}.xml" />
@@ -199,6 +210,7 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{5381a84f-2ffa-41ee-a9ee-761068523f48}.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{54e0acf6-3610-4260-8e23-27c070cc9e8d}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{2d520ff0-f9ff-4c37-b011-a9c649eca305}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{f2a0a7da-ce0c-4a40-b72a-de108d8c81c5}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{f87a7538-c7dd-4394-9b7d-9881c4863b98}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Tags.xml" />
@@ -210,6 +222,7 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{7750c168-db75-40c0-abf7-2aa348e75781}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Group\{0f728095-56ee-4481-9ae2-6a60eeafdc38}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{afea23cc-6bee-4ae9-afaf-c04f139148c9}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{84d2c8c2-20cc-4dc3-94a4-7e5ecbdb24fe}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{0716fdd7-8f75-4338-bc2b-c3f65caa5470}.xml" />
@@ -220,8 +233,11 @@
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\ParameterPreset\{038cd846-5f70-40c9-9d57-35778ec21231}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Snapshot\{7c2f0059-e119-475e-ba04-f2632755c919}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{0ca585f7-907c-4def-a298-e01546652b7b}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{b6f25058-65e3-49f6-95a7-75d7a3e86a6a}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{4777b069-5974-46fe-9661-0c334c6542c0}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{f32a8a18-5579-45a6-adf2-24418eefee30}.xml" />
+    <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Event\{4abb35f5-3560-4a19-8628-06fb9e0fc63e}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\Asset\{8d9058cb-aa9c-4784-812a-c0bbb1e4ceab}.xml" />
     <None Include="Assets\Medieval Fantasy Music\FMOdProj\Metadata\AudioFile\{fb75a7c4-6bc8-4f7b-b434-c7424042423b}.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
@@ -1076,16 +1092,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1112,16 +1128,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1164,6 +1180,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1182,10 +1202,6 @@
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
