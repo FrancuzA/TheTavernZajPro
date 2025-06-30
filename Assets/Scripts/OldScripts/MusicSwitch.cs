@@ -1,36 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using FMODUnity;
 
 public class MusicSwitch : MonoBehaviour, IInteractable
 {
     public FMODUnity.StudioEventEmitter tavernEmitter;
-    private bool musicIsPlaying = true;
 
     public void Interact()
     {
-            Debug.Log("switch");
-        //Music.setParameterByNameWithLabel("Switch_parts", "Part 2");
-        if (gameObject.name == "Food_bottle4")
-            tavernEmitter.SetParameter("MusicSection", 1);
-        else if (gameObject.name == "Food_bottle1")
-            tavernEmitter.SetParameter("MusicSection", 2);
-        else if (gameObject.name == "Food_bottle3")
-            tavernEmitter.SetParameter("MusicSection", 3);
-        else if (gameObject.name == "Food_bottle2")
+        switch (gameObject.name)
         {
-            tavernEmitter.SetParameter("MusicSection", 4);
-            musicIsPlaying = false;
-            Debug.Log(musicIsPlaying);
-        }
-        //else if (gameObject.name == "Food_bottle6" && musicIsPlaying == false)
-        else if (gameObject.name == "Food_bottle6")
-        {
-            Debug.Log("start");
-            tavernEmitter.SetParameter("MusicSection", 0);
-            tavernEmitter.Play();
-            musicIsPlaying = true;
+            case "Food_bottle1":
+                tavernEmitter.SetParameter("MusicSection", 0);
+                break;
+            case "Food_bottle2":
+                tavernEmitter.SetParameter("MusicSection", 1);
+                break;
+            case "Food_bottle3":
+                tavernEmitter.SetParameter("MusicSection", 2);
+                break;
+            case "Food_bottle4":
+                tavernEmitter.SetParameter("MusicSection", 3);
+                break;
+            case "Food_bottle5":
+                tavernEmitter.SetParameter("MusicSection", 4);
+                break;
+            case "Food_bottle6":
+                tavernEmitter.SetParameter("MusicSection", 0);
+                break;
         }
     }
 }

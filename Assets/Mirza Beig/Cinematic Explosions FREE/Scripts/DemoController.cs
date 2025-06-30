@@ -11,12 +11,13 @@ namespace MirzaBeig.CinematicExplosionsFree
 {
     public class DemoController : MonoBehaviour
     {
+        public Camera camera;
         public enum Scene
         {
             Day,
             Night,
         }
-        Camera camera;
+        
 
         List<ParticleSystem> particleSystems;
         public Transform particleSystemsContainer;
